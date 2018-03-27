@@ -1,0 +1,30 @@
+body {
+    overflow: hidden;
+}
+
+.mySlider > div {
+    margin : 0px !important;
+}
+
+.myTextField {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+    border-radius: 2px;
+    width: auto !important;
+    background-color: rgba(255,255,255,.7) !important;
+}
+
+.myTextField input {
+    padding-left: 10px !important;
+    text-align: center;
+    font-size: .9em !important;
+}
+
+.myTextField hr {
+    display:none;
+}
+
+.myTextField input[disabled] {
+    color : #000 !important;
+    cursor: default !important;
+    background-color: rgba(240,240,240,.7) !important;
+}
