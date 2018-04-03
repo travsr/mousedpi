@@ -4,7 +4,7 @@ import PadVis from '../container/PadVis';
 import GridDisplay from '../presentation/GridDisplay';
 import InputSlider from '../container/InputSlider';
 
-import CSCalc from '../../data/CSCalc';
+import CalcCS from '../../data/CalcCS';
 
 import RaisedButton from 'material-ui/RaisedButton';
 
@@ -21,7 +21,7 @@ class MainView extends Component {
     constructor(props) {
         super(props);
 
-        let csCalc = new CSCalc();
+        let csCalc = new CalcCS();
 
         let testD = csCalc.doCalc(450, 1.75);
         console.log(testD);

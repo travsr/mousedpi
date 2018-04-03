@@ -1,6 +1,6 @@
 
 
-class CSCalc {
+class CalcOW {
 
     constructor() {
 
@@ -112,4 +112,4 @@ class CSCalc {
 
 }
 
-export default CSCalc;
+export default CalcOW;
